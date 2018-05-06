@@ -28,3 +28,9 @@ b. 基本数据类型底层也是对象，所以说 Java 是一门彻头彻尾�
 4 . [从内存模型理解下值传递](https://www.zhihu.com/question/31203609)
 
 5 . [八大排序算法总结](https://itimetraveler.github.io/2017/07/18/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%E4%B8%8Ejava%E5%AE%9E%E7%8E%B0/#%E6%A6%82%E8%BF%B0)
+
+6 . [Java写一套漂亮的代码](https://www.zhihu.com/question/39972591)
+
+7 . [JAVA设计模式总结之23种设计模式](https://www.cnblogs.com/pony1223/p/7608955.html)
+
+8 . [枚举单例](https://www.cnblogs.com/cielosun/p/6596475.html)

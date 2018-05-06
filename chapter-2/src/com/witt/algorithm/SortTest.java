@@ -27,18 +27,18 @@ public class SortTest {
         System.out.println();
     }
 
-    // 直接选择
+    // 选择排序
     private static void fun2(int[] num) {
         for (int i = 0; i < num.length; i++) {
-            int t = i;
+            int min = i;
             for (int j = i; j < num.length; j++) {
-                if (num[t] > num[j]) {
-                    t = j;
+                if (num[min] > num[j]) {
+                    min = j;
                 }
             }
-            if (t != i) {
-                int temp = num[t];
-                num[t] = num[i];
+            if (min != i) {
+                int temp = num[min];
+                num[min] = num[i];
                 num[i] = temp;
             }
         }
