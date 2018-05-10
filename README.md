@@ -34,3 +34,11 @@ b. 基本数据类型底层也是对象，所以说 Java 是一门彻头彻尾�
 7 . [JAVA设计模式总结之23种设计模式](https://www.cnblogs.com/pony1223/p/7608955.html)
 
 8 . [枚举单例](https://www.cnblogs.com/cielosun/p/6596475.html)
+
+9 . [IO 操作](https://blog.csdn.net/wei_zhi/article/details/52933233)
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fr6ekuxv65j30ml0dwk49.jpg)
+
+10 . [多线程](https://blog.csdn.net/evankaka/article/details/44153709)
+
+11 . [三种多线程实现方式](https://my.oschina.net/Tsher2015/blog/487277)
