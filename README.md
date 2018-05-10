@@ -41,4 +41,6 @@ b. 基本数据类型底层也是对象，所以说 Java 是一门彻头彻尾�
 
 10 . [多线程](https://blog.csdn.net/evankaka/article/details/44153709)
 
+* 想要执行某个对象的 notify(), notifyAll(),wait() 方法就必须获取该对象的锁，避免 IllegalMonitorStateException 异常
+
 11 . [三种多线程实现方式](https://my.oschina.net/Tsher2015/blog/487277)
