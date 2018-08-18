@@ -12,12 +12,12 @@ public class TestThread {
      */
 
     public static void main(String[] args) {
-        PrimeThread1 pt1 = new PrimeThread1();
-        pt1.start();
-        //
-        //PrimeThread2 primeThread2 = new PrimeThread2();
-        //Thread t1 = new Thread(primeThread2);
-        //
+        //PrimeThread1 pt1 = new PrimeThread1();
+        //pt1.start();
+
+        PrimeThread2 primeThread2 = new PrimeThread2();
+        Thread t1 = new Thread(primeThread2);
+        t1.start();
 
     }
 
