@@ -80,8 +80,12 @@ b. 基本数据类型底层也是对象，所以说 Java 是一门彻头彻尾�
 2. 每一个中间操作返回一个新的流（parallel/sequetial 除外，他们只修改 Head 的并行状态），流里面有一个熟悉 sourceStage 指向同一个地方 Head （Head -> nextStage -> nextStage -> ... -> null) 流执行完毕
 3. 有状态的操作会把流截断（并行操作下，有状态的流也是串行执行的）
 
-13 . 要开始习惯使用 try-with-resource
-
 [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html)
 
 扩展：级联表达式与[柯里化](https://zh.wikipedia.org/wiki/柯里化)
+
+13 . 要开始习惯使用 try-with-resource
+
+14 . jdk9 Reactive Stream 
+
+了解响应式编程的基本概念（生产，消费，订阅，消息驱动，背压），理解生产者、消费者之间的调用关系，有 Rx 的基础应该理解起来不难，具体使用，看例子，写 Demo 翻 api 中。。。
